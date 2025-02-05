@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/3.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+input, button {
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+button {
+    background-color: #4c7aaf;
+    color: white;
+    cursor: pointer;
+   
+}
+
+#toggleUnits{
+    max-width: 100px;
+    border-radius: 8px;
+    float: right;
+}
+
+button:hover {
+    background-color: #4595a0;
+}
+
+#weatherInfo {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#weatherIcon {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    display: none;
+}
+#currentweatherIcon {
+    width: 40px;
+    height: 40px;  
+    display: none;
+    
+}
+
+#navbarText{
+    position: absolute;
+    right: 0;
+}
+
+
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.forecast-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.forecast-item img {
+    width: 50px;
+    height: 50px;
+}
+
+#forecast {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* CSS: Animations */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#weatherInfo, #forecast {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    input, button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #weatherInfo {
+        padding: 15px;
+    }
+
+    #weatherIcon {
+        width: 80px;
+        height: 80px;
+    }
+}
