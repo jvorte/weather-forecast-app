@@ -38,4 +38,9 @@ Bootstrap: For responsive design and styling.
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
+IMAGES
+![weather app2](https://github.com/user-attachments/assets/5cc61bf7-e84c-4b90-92cb-38e54e9cbb56)
+![weather app](https://github.com/user-attachments/assets/b68bfe23-5668-41be-86eb-ed3a3fe751a3)
+
+
 
