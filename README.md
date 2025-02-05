@@ -1,5 +1,6 @@
 Weather App
 Description
+
 A simple, interactive weather application that provides real-time weather data and a 5-day forecast using the OpenWeather API. The app includes geolocation features, allowing users to get weather data based on their current location, as well as the ability to search for the weather in any city.
 
 Features
