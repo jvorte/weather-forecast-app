@@ -193,11 +193,12 @@ function displayFiveDayForecast(data) {
         const forecastItem = document.createElement('div');
         forecastItem.classList.add('forecast-item');
         forecastItem.innerHTML = `
+        <div id="bg">
             <p>${new Date(date).toLocaleDateString()}</p>
             <img src="https://openweathermap.org/img/wn/${dailyForecast[date].icon}.png" alt="Weather Icon">
             <p>${dailyForecast[date].weather}</p>
             <p>${dailyForecast[date].temp}°${isCelsius ? 'C' : 'F'}</p> <!-- Προσθήκη μονάδας θερμοκρασίας εδώ -->
-        `;
+       <div/> `;
         forecastContainer.appendChild(forecastItem);
     });
 }

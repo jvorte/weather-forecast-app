@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: "Mulish", serif;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -9,7 +15,7 @@ body {
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 20px;
     background: #ffffff;
     border-radius: 10px;
@@ -46,11 +52,13 @@ button:hover {
 }
 
 #weatherInfo {
-    background-color: #f8f9fa;
+    background-color: #76a0e1;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #f8f9fa;
 }
+
 
 #weatherIcon {
     width: 90px;
@@ -81,11 +89,12 @@ button:hover {
 }
 
 .forecast-item {
-    background-color: #f8f9fa;
+    background-color: #739cdb;
     border-radius: 8px;
     padding: 10px;
     text-align: center;
     width: 150px;
+    color: #f0f8ff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .forecast-item img {
