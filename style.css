@@ -11,15 +11,21 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
+
+
+
 }
 
 .container {
     margin-top: 80px;
     padding: 20px;
-    background: #ffffff;
+    
     border-radius: 10px;
-    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -55,8 +61,8 @@ button:hover {
     background-color: #76a0e1;
     border-radius: 8px;
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    color: #f8f9fa;
+   
+      color: #f8f9fa;
 }
 
 
@@ -95,7 +101,7 @@ button:hover {
     text-align: center;
     width: 150px;
     color: #f0f8ff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 .forecast-item img {
     width: 50px;
